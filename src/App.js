@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Menu from './components/menu';
 import Header from './components/header';
 import Bio from './components/bio';
 import Knowledge from './components/knowledge';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Menu/>
-        <Header/>
-        <Bio/>
-        <Knowledge/>
-      </div>
-    );
-  }
-}
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom'
 
-export default App;
+
+const App = () =>
+<Router>
+  <div>
+    <Route exact path="/" component={Header}/>
+    <Route exact path="/bio" component={Bio}/>
+    <Route path="/knowledge" component={Knowledge}/>
+  </div>
+</Router>
+
+export default App
