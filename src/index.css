@@ -27,6 +27,7 @@ body {
 /*BIO*/
 .bio{
   text-align: center;
+  margin-top: 100px;
 }
 
 .bio-title{
@@ -45,7 +46,7 @@ body {
 /*Experience*/
 #conocimientos{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .item-knowledge{
@@ -56,6 +57,12 @@ body {
 .collapsible.popout{
   width: 60%;
   margin: auto;
+}
+
+
+/*Goals*/
+.goals{
+  margin-top: 100px;
 }
 
 

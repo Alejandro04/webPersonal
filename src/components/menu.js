@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../index.css';
 
-class Menu extends Component {
+class Header extends Component {
   render() {
     return (
         <div class="navbar-fixed">
@@ -14,7 +14,7 @@ class Menu extends Component {
                   <li><a href="/bio" class="ancla">Bio</a></li>
                   <li><a href="/knowledge" class="ancla">Conocimientos</a></li>
                   <li><a href="#" class="ancla">Proyectos</a></li>
-                  <li><a href="#" class="ancla">Metas</a></li>
+                  <li><a href="/goals" class="ancla">Metas</a></li>
                   <li><a href="https://medium.com/@alejandroroa" class="ancla" target="_blank">Medium</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
@@ -31,4 +31,4 @@ class Menu extends Component {
   }
 }
 
-export default Menu;
+export default Header;
