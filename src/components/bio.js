@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Menu from './menu';
 import '../index.css';
 
 class Bio extends Component {
   render() {
     return (
       <div>
+        <Menu/>
         <section className="bio" id="bio">
                 <h3 className="bio-title">Contacto</h3>
                 <p className="bio-text">alejodev04@gmail.com</p>
