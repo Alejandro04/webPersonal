@@ -15,6 +15,7 @@ class Header extends Component {
                   <li><a href="/knowledge" class="ancla">Conocimientos</a></li>
                   <li><a href="#" class="ancla">Proyectos</a></li>
                   <li><a href="/goals" class="ancla">Metas</a></li>
+                  <li><a href="#" class="ancla">Logros</a></li>
                   <li><a href="https://medium.com/@alejandroroa" class="ancla" target="_blank">Medium</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">

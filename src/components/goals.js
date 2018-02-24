@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Menu from './menu';
 import '../index.css';
 
-class Bio extends Component {
+class Goals extends Component {
   render() {
     return (
       <div>
@@ -65,4 +65,4 @@ class Bio extends Component {
   }
 }
 
-export default Bio;
+export default Goals;
