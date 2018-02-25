@@ -10,7 +10,7 @@ export default class Goals extends React.Component{
         return data.goals.map(go=>{
             return (
                 <div class="col s12 m4 l4">
-                    <div class="card-panel teal">
+                    <div class="card-panel indigo lighten-2">
                         <span class="white-text">
                             {go.goals}
                         </span>

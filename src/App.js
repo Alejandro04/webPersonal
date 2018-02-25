@@ -5,13 +5,7 @@ import Header from './components/header';
 import Bio from './components/bio';
 import Knowledge from './components/knowledge';
 import Goals from './components/goals';
-
-/*
-import {
-  BrowserRouter as Router,
-  Route,
-} from 'react-router-dom'
-*/
+import Achievements from './components/achievements';
 
 import {
   Route,
@@ -26,6 +20,7 @@ const App = () =>
     <Route exact path="/bio" component={Bio}/>
     <Route path="/knowledge" component={Knowledge}/>
     <Route path="/goals" component={Goals}/>
+    <Route path="/achievements" component={Achievements}/>
   </div>
 </HashRouter>
 

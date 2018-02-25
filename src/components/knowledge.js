@@ -74,7 +74,7 @@ export default class Knowledge extends React.Component{
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul class="collapsible popout" data-collapsible="accordion">
+                                    <ul className="collapsible popout" data-collapsible="accordion">
                                         <li>
                                             <div className="collapsible-header">
                                                 Backend
@@ -84,7 +84,7 @@ export default class Knowledge extends React.Component{
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul class="collapsible popout" data-collapsible="accordion">
+                                    <ul className="collapsible popout" data-collapsible="accordion">
                                         <li>
                                             <div className="collapsible-header">
                                                 Repo y Server
@@ -94,7 +94,7 @@ export default class Knowledge extends React.Component{
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul class="collapsible popout" data-collapsible="accordion">
+                                    <ul className="collapsible popout" data-collapsible="accordion">
                                         <li>
                                             <div className="collapsible-header">
                                                 Planificación
@@ -104,7 +104,7 @@ export default class Knowledge extends React.Component{
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul class="collapsible popout" data-collapsible="accordion">
+                                    <ul className="collapsible popout" data-collapsible="accordion">
                                         <li>
                                             <div className="collapsible-header">
                                                 Metodologías
@@ -114,7 +114,7 @@ export default class Knowledge extends React.Component{
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul class="collapsible popout" data-collapsible="accordion">
+                                    <ul className="collapsible popout" data-collapsible="accordion">
                                         <li>
                                             <div className="collapsible-header">
                                                 Comunicación
