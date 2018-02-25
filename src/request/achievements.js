@@ -26,6 +26,12 @@ export default {
         },
         {
             ac: 'Orientar y capacitar a un estudiante del bootcamp, logrando que el mismo ya sea productivo',
-        },          
+        }, 
+        {
+            ac: 'Emprender un proyecto y llevarlo al mercado (fallando y aprendiendo)',
+        },
+        {
+            ac: 'Trabajar para varias empresas de latinoamerica donde he aprendido muchas cosas',
+        },         
     ]
 }

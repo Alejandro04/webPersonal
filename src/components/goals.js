@@ -27,7 +27,7 @@ export default class Goals extends React.Component{
         <section className="goals" id="goals">
             <div class="row">
                 <div class="col s12 m12 l12 center-align">
-                    <h3>Quiero aprender</h3>
+                    <h3>Items para aprender y algo mas</h3>
                     <div class="row">
                          {this.goals()}
                     </div>
