@@ -11,6 +11,7 @@ class Header extends Component {
               <div className="items-header">
                   <h1 className="title-header">Alejandro Roa</h1>
                   <p className="text-header">Ingeniero de Sistemas - Full-Stack Developer - CTO en Karbook</p>
+                  
               </div>
           </header>
         </div>

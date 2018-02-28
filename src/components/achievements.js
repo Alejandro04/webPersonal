@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import Menu from './menu';
 import data from '../request/achievements';
+import datap from '../request/achievements_personal';
 import '../index.css';
 
 
 export default class Achievements extends React.Component{
     
-    ac(){
+
+    ac_professional(){
         return data.ac.map(a=>{
             return (
                 <div class="col s12 m4 l4">
@@ -20,20 +22,51 @@ export default class Achievements extends React.Component{
         })
     }
 
+    ac_personal(){
+        return datap.acp.map(ac=>{
+            return (
+                <div class="col s12 m4 l4">
+                    <div class="card-panel purple lighten-2">
+                        <span class="white-text">
+                            {ac.acp}
+                        </span>
+                    </div>
+                </div>
+            );
+        })
+    }
+
+
   render() {
     return (
       <div>
-        <Menu/>
-        <section className="goals" id="goals">
+       <Menu/>
+          <header className="backgound-ac">
+              <div className="items-header">
+                <h1 className="title-header">Logros Profesionales</h1>
+                <p className="text-header_p">La perseverancia por encima de las dificultades.</p>              
+              </div>
+          </header>
+          <section className="ac">
             <div class="row">
                 <div class="col s12 m12 l12 center-align">
-                    <h3>Cosas importantes que he completado</h3>
                     <div class="row">
-                         {this.ac()}
+                         {this.ac_professional()}
                     </div>
+                </div>
+            </div>
+        </section>
+        <header className="backgound-ac">
+              <div className="items-header">
+                <h1 className="title-header">Logros Personales</h1>
+                <p className="text-header_p">Para mi, la familia es el motor mas grande que puedes tener como ser humano.</p>              
+              </div>
+          </header>
+          <section className="ac">
+            <div class="row">
+                <div class="col s12 m12 l12 center-align">
                     <div class="row">
-                         <p className="text-ac">Cabe destacar que estos logros tambien fueron posibles gracias al equipo extraordinario de trabajo que tengo y a mi familia que me acompaña.</p>
-                         <p>Rodearte de buenas personas te va ayudar a llegar muy lejos.</p>
+                         {this.ac_personal()}
                     </div>
                 </div>
             </div>

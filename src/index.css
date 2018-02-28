@@ -64,8 +64,20 @@ body {
 }
 
 /*Ac*/
-.text-ac{
-  margin-bottom: -10px;
+.ac{
+  margin-top: 50px;
+}
+
+.backgound-ac{
+  background: url("./logros_p.jpg") no-repeat center center fixed;
+  height: 700px;
+}
+
+.text-header_p{
+  text-align: left;
+  color: #fff;
+  text-shadow: 2px solid black;
+  margin-left: 50px;
 }
 
 

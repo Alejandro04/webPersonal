@@ -1,15 +1,6 @@
 export default {
     ac: [
         {
-            ac: 'Encontrar el equilibrio entre familia y trabajo',
-        },  
-        {
-            ac: 'Tener la familia que siempre he querido',
-        }, 
-        {
-            ac: 'Trabajar en lo que me gusta',
-        },   
-        {
             ac: 'Liderar y dirigir el equipo de desarrollo de karbook',
         },
         {
@@ -32,6 +23,6 @@ export default {
         },
         {
             ac: 'Trabajar para varias empresas de latinoamerica donde he aprendido muchas cosas',
-        },         
+        },       
     ]
 }
