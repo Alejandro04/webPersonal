@@ -22,6 +22,9 @@ export default {
             front: 'Material-UI',
         },
         {
+            front: 'Rest Api',
+        },
+        {
             back: 'Php',
         },
         {
@@ -29,6 +32,9 @@ export default {
         },
         {
             back: 'Laravel',
+        },
+        {
+            back: 'Rest Api con JWT',
         },
         {
             planificacion: 'Assana',
