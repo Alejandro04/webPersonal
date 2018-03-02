@@ -73,12 +73,23 @@ body {
   height: 700px;
 }
 
+.backgound-acp{
+  background: url("./family.jpg") no-repeat right center fixed;
+  height: 700px;
+}
+
+
 .text-header_p{
   text-align: left;
   color: #fff;
   text-shadow: 2px solid black;
   margin-left: 50px;
 }
+
+.text_per{
+  color: #000;
+}
+
 
 
 /*MATERIALIZE*/

@@ -56,10 +56,10 @@ export default class Achievements extends React.Component{
                 </div>
             </div>
         </section>
-        <header className="backgound-ac">
+        <header className="backgound-acp">
               <div className="items-header">
-                <h1 className="title-header">Logros Personales</h1>
-                <p className="text-header_p">Para mi, la familia es el motor mas grande que puedes tener como ser humano.</p>              
+                <h1 className="title-header text_per">Logros Personales</h1>
+                <p className="text-header_p text_per">Para mi, la familia es el motor mas grande que puedes tener como ser humano.</p>              
               </div>
           </header>
           <section className="ac">
