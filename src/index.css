@@ -22,6 +22,17 @@ body {
   margin-left: 30px;
 }
 
+.btn-header-responsive{
+    margin-left: 20px;
+    background: #38435a !important;
+}
+
+@media (min-width: 992px) {
+  .btn-header-responsive{
+    display: none !important;
+  }
+}
+
 /*BIO*/
 .bio{
   text-align: center;
@@ -76,6 +87,7 @@ body {
 .backgound-acp{
   background: url("./family.jpg") no-repeat right center fixed;
   height: 700px;
+  background-color:#38435a;
 }
 
 
@@ -87,7 +99,7 @@ body {
 }
 
 .text_per{
-  color: #000;
+  color: #fff;
 }
 
 

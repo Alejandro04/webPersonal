@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {SideNav, SideNavItem, Button} from 'react-materialize'
 import '../index.css';
 
 class Header extends Component {
@@ -8,7 +9,6 @@ class Header extends Component {
             <nav>
               <div class="nav-wrapper">
                 <a href="#!" class="brand-logo"></a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="large material-icons">toc</i></a>
                 <ul class="right hide-on-med-and-down">
                   <li><a href="#/" class="ancla">Home</a></li>
                   <li><a href="#/bio" class="ancla">Bio</a></li>
@@ -18,13 +18,25 @@ class Header extends Component {
                   <li><a href="#/achievements" class="ancla">Logros</a></li>
                   <li><a href="https://medium.com/@alejandroroa" class="ancla" target="_blank">Medium</a></li>
                 </ul>
-                <ul class="side-nav" id="mobile-demo">
-                              <li><a href="#bio" class="ancla">Bio</a></li>
-                              <li><a href="#conocimientos" class="ancla">Conocimientos</a></li>
-                              <li><a href="#proyectos" class="ancla">Proyectos</a></li>
-                              <li><a href="#cosas" class="ancla">Metas</a></li>
-                  <li><a href="https://medium.com/@alejandroroa" class="ancla" target="_blank">Medium</a></li>
-                </ul>
+                <SideNav
+                trigger={<Button className="btn-header-responsive">MENU</Button>}
+                options={{ closeOnClick: true }}
+                >
+                <SideNavItem userView
+                  user={{
+                    background: 'wallpaper.jpg',
+                    image: 'me.jpg',
+                    name: 'Alejandro Roa',
+                    email: 'alejodev04@gmail.com',
+                  }}
+                />
+                <SideNavItem href='#/'>Home</SideNavItem>
+                <SideNavItem href='#/bio'>Bio</SideNavItem>
+                <SideNavItem href='#/knowledge'>Conocimientos</SideNavItem>
+                <SideNavItem href='#/'>Proyectos</SideNavItem>
+                <SideNavItem href='#/goals'>Metas</SideNavItem>
+                <SideNavItem href='#/achievements'>Logros</SideNavItem>
+              </SideNav>
               </div>
             </nav>
         </div>
