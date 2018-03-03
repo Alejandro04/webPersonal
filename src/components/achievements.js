@@ -11,7 +11,7 @@ export default class Achievements extends React.Component{
     ac_professional(){
         return data.ac.map(a=>{
             return (
-                <div class="col s12 m12 l12">
+                <div class="col s12 m4 l4">
                     <div class="card-panel purple lighten-2">
                         <span class="white-text">
                             {a.ac}
@@ -25,7 +25,7 @@ export default class Achievements extends React.Component{
     ac_personal(){
         return datap.acp.map(ac=>{
             return (
-                <div class="col s12 m12 l12">
+                <div class="col s12 m4 l4">
                     <div class="card-panel purple lighten-2">
                         <span class="white-text">
                             {ac.acp}
