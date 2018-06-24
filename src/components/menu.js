@@ -13,9 +13,6 @@ class Header extends Component {
                   <li><a href="#/" class="ancla">Home</a></li>
                   <li><a href="#/bio" class="ancla">Bio</a></li>
                   <li><a href="#/knowledge" class="ancla">Conocimientos</a></li>
-                  <li><a href="#" class="ancla">Proyectos</a></li>
-                  <li><a href="#/goals" class="ancla">Metas</a></li>
-                  <li><a href="#/achievements" class="ancla">Logros</a></li>
                   <li><a href="https://medium.com/@alejandroroa" class="ancla" target="_blank">Medium</a></li>
                 </ul>
                 <SideNav
@@ -33,9 +30,7 @@ class Header extends Component {
                 <SideNavItem href='#/'>Home</SideNavItem>
                 <SideNavItem href='#/bio'>Bio</SideNavItem>
                 <SideNavItem href='#/knowledge'>Conocimientos</SideNavItem>
-                <SideNavItem href='#/'>Proyectos</SideNavItem>
-                <SideNavItem href='#/goals'>Metas</SideNavItem>
-                <SideNavItem href='#/achievements'>Logros</SideNavItem>
+                <SideNavItem href='https://medium.com/@alejandroroa'>Medium</SideNavItem>
               </SideNav>
               </div>
             </nav>

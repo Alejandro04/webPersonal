@@ -55,6 +55,14 @@ export default class Knowledge extends React.Component{
         })
     }
 
+    knowledge_goals(){
+        return data.knowledge.map(know=>{
+             return (
+                <p className="item-knowledge">{know.goals}</p>
+            );
+        })
+    }
+
     render(){
         return(
             <div>
@@ -122,6 +130,16 @@ export default class Knowledge extends React.Component{
                                             </div>
                                             <div className="collapsible-body">
                                                 {this.knowledge_com()}
+                                            </div>
+                                        </li>
+                                    </Collapsible>
+                                    <Collapsible className ="collapsible popout">
+                                        <li>
+                                            <div className="collapsible-header">
+                                                Lo que deseo aprender
+                                            </div>
+                                            <div className="collapsible-body">
+                                                {this.knowledge_goals()}
                                             </div>
                                         </li>
                                     </Collapsible>

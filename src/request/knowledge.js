@@ -4,10 +4,10 @@ export default {
             front: 'Javascript',
         },
         {
-            front: 'React.js',
+            front: 'React.js - Redux',
         },
         {
-            front: 'Vue.js',
+            front: 'Vue.js - Vuex',
         },
         {
             front: 'JQuery.js',
@@ -28,10 +28,13 @@ export default {
             back: 'Php',
         },
         {
-            back: 'Javascript',
+            back: 'Node.js',
         },
         {
             back: 'Laravel',
+        },
+        {
+            back: 'Express.js',
         },
         {
             back: 'Rest Api con JWT',
@@ -58,16 +61,13 @@ export default {
             comunicacion: 'Bitrix',
         },
         {
-            server: 'AWS',
+            server: 'AWS EC2, AWS S3',
         },
         {
             server: 'Digital Ocean',
         },
         {
-            server: 'VPS',
-        },
-        {
-            server: 'SSH',
+            server: 'VPS - SSH - UBUNTU - APACHE - NGINX',
         },
         {
             server: 'GIT',
@@ -77,6 +77,9 @@ export default {
         },
         {
             server: 'Bitbucket',
+        },
+        {
+            goals: 'Ingles - Docker - Progressive Web apps - Airtable - Formio',
         },
     ]
 }

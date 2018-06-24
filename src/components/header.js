@@ -10,7 +10,7 @@ class Header extends Component {
           <header className="backgound-header">
               <div className="items-header">
                   <h1 className="title-header">Alejandro Roa</h1>
-                  <p className="text-header">Ingeniero de Sistemas - Full-Stack Developer - CTO en Karbook</p>
+                  <p className="text-header">Ingeniero de Sistemas - Full-Stack Developer</p>
                   
               </div>
           </header>
