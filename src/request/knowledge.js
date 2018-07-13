@@ -79,7 +79,7 @@ export default {
             server: 'Bitbucket',
         },
         {
-            goals: 'Ingles - Docker - Progressive Web apps - Airtable - Formio',
+            goals: 'Ingles - Docker - Python - Django - Continuous Integration - Infrastructure as Code - Airtable - Formio',
         },
     ]
 }
