@@ -10,18 +10,6 @@ export default {
             front: 'Vue.js - Vuex',
         },
         {
-            front: 'JQuery.js',
-        },
-        {
-            front: 'Materialize',
-        },
-        {
-            front: 'Bootstrap',
-        },
-        {
-            front: 'Material-UI',
-        },
-        {
             front: 'Rest Api',
         },
         {
@@ -67,7 +55,7 @@ export default {
             server: 'Digital Ocean',
         },
         {
-            server: 'VPS - SSH - UBUNTU - APACHE - NGINX',
+            server: 'VPS - SSH - UBUNTU - APACHE - NGINX - SSL',
         },
         {
             server: 'GIT',
@@ -79,7 +67,19 @@ export default {
             server: 'Bitbucket',
         },
         {
-            goals: 'Ingles - Docker - Python - Django - Continuous Integration - Infrastructure as Code - Airtable - Formio',
+            db: 'MySQL',
+        },
+        {
+            db: 'PostgreSQL',
+        },
+        {
+            db: 'MongoDB',
+        },
+        {
+            db: 'Airtable',
+        },
+        {
+            goals: 'Ingles - Docker - Python - Django - Continuous Integration - Infrastructure as Code - Formio',
         },
     ]
 }

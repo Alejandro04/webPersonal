@@ -63,6 +63,14 @@ export default class Knowledge extends React.Component{
         })
     }
 
+    knowledge_db(){
+        return data.knowledge.map(know=>{
+             return (
+                <p className="item-knowledge">{know.db}</p>
+            );
+        })
+    }
+
     render(){
         return(
             <div>
@@ -96,6 +104,16 @@ export default class Knowledge extends React.Component{
                                     <Collapsible className ="collapsible popout">
                                         <li>
                                             <div className="collapsible-header">
+                                                Databases
+                                            </div>
+                                            <div className="collapsible-body">
+                                                {this.knowledge_db()}
+                                            </div>
+                                        </li>
+                                    </Collapsible>
+                                    <Collapsible className ="collapsible popout">
+                                        <li>
+                                            <div className="collapsible-header">
                                                 Repo y Server
                                             </div>
                                             <div className="collapsible-body">
@@ -120,16 +138,6 @@ export default class Knowledge extends React.Component{
                                             </div>
                                             <div className="collapsible-body">
                                                 {this.knowledge_met()}
-                                            </div>
-                                        </li>
-                                    </Collapsible>
-                                    <Collapsible className ="collapsible popout">
-                                        <li>
-                                            <div className="collapsible-header">
-                                                Comunicación
-                                            </div>
-                                            <div className="collapsible-body">
-                                                {this.knowledge_com()}
                                             </div>
                                         </li>
                                     </Collapsible>
