@@ -79,7 +79,7 @@ export default {
             db: 'Airtable',
         },
         {
-            goals: 'Ingles - Docker - Python - Django - Continuous Integration - Infrastructure as Code - Formio',
+            goals: 'Ingles - Docker - Kubernetes - Python - Django - Continuous Integration - Infrastructure as Code - Formio',
         },
     ]
 }
