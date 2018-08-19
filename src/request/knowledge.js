@@ -4,16 +4,7 @@ export default {
             front: 'Javascript',
         },
         {
-            front: 'React.js - Redux',
-        },
-        {
-            front: 'Vue.js - Vuex',
-        },
-        {
             front: 'Rest Api',
-        },
-        {
-            front: 'Formio',
         },
         {
             back: 'Php',
