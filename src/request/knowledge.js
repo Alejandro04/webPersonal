@@ -13,7 +13,13 @@ export default {
             front: 'Rest Api',
         },
         {
+            front: 'Formio',
+        },
+        {
             back: 'Php',
+        },
+        {
+            back: 'Python',
         },
         {
             back: 'Node.js',
@@ -22,10 +28,16 @@ export default {
             back: 'Laravel',
         },
         {
+            back: 'Flask',
+        },
+        {
             back: 'Express.js',
         },
         {
             back: 'Rest Api con JWT',
+        },
+        {
+            back: 'Wordpress',
         },
         {
             planificacion: 'Assana',
@@ -79,7 +91,7 @@ export default {
             db: 'Airtable',
         },
         {
-            goals: 'Ingles - Docker - Kubernetes - Python - Django - Continuous Integration - Infrastructure as Code - Formio',
+            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - Android',
         },
     ]
 }
