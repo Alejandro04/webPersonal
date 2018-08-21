@@ -16,9 +16,6 @@ export default {
             back: 'Rest Api con JWT',
         },
         {
-            back: 'Wordpress',
-        },
-        {
             planificacion: 'Assana',
         },
         {
