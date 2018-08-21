@@ -7,22 +7,10 @@ export default {
             front: 'Rest Api',
         },
         {
-            back: 'Php',
+            back: 'Php - Python - Node.js',
         },
         {
-            back: 'Python',
-        },
-        {
-            back: 'Node.js',
-        },
-        {
-            back: 'Laravel',
-        },
-        {
-            back: 'Flask',
-        },
-        {
-            back: 'Express.js',
+            back: 'Laravel - Flask - Express.js',
         },
         {
             back: 'Rest Api con JWT',
@@ -82,7 +70,7 @@ export default {
             db: 'Airtable',
         },
         {
-            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - Android',
+            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - Angular 6 - GraphQL - Ruby on Rails',
         },
     ]
 }
