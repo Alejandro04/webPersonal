@@ -67,7 +67,7 @@ export default {
             db: 'Airtable',
         },
         {
-            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - Angular 6 - GraphQL - Ruby on Rails',
+            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - Angular 6 - Elixir - Go',
         },
     ]
 }
