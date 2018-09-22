@@ -7,10 +7,10 @@ export default {
             front: 'Rest Api',
         },
         {
-            back: 'Php - Python - Node.js',
+            back: 'Php - Node.js',
         },
         {
-            back: 'Laravel - Flask - Express.js',
+            back: 'Laravel - Express.js',
         },
         {
             back: 'Rest Api con JWT',
@@ -28,31 +28,16 @@ export default {
             metodologia: 'Kanban',
         },
         {
-            comunicacion: 'Slack',
-        },
-        {
-            comunicacion: 'Basecam',
-        },
-        {
-            comunicacion: 'Bitrix',
-        },
-        {
-            server: 'AWS EC2, AWS S3',
+            server: 'Aws EC2',
         },
         {
             server: 'Digital Ocean',
         },
         {
-            server: 'VPS - SSH - UBUNTU - APACHE - NGINX - SSL',
+            server: 'Vps - Ssh - Ubuntu - Apache - Nginx - Ssl',
         },
         {
-            server: 'GIT',
-        },
-        {
-            server: 'Gitlab',
-        },
-        {
-            server: 'Bitbucket',
+            server: 'Git',
         },
         {
             db: 'MySQL',
@@ -67,7 +52,7 @@ export default {
             db: 'Airtable',
         },
         {
-            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - Angular 6 - Elixir - Go',
+            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - React.js - Loopback',
         },
     ]
 }
