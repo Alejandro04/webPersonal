@@ -52,7 +52,7 @@ export default {
             db: 'Airtable',
         },
         {
-            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - React.js - Loopback',
+            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - React.js - Styled Components - Loopback',
         },
     ]
 }
