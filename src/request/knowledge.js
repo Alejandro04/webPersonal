@@ -4,13 +4,19 @@ export default {
             front: 'Javascript',
         },
         {
+            front: 'React.js',
+        },
+        {
+            front: 'Redux',
+        },
+        {
             front: 'Rest Api',
         },
         {
             back: 'Php - Node.js',
         },
         {
-            back: 'Laravel - Express.js',
+            back: 'Laravel - Express.js - Loopback',
         },
         {
             back: 'Rest Api con JWT',
@@ -52,7 +58,7 @@ export default {
             db: 'Airtable',
         },
         {
-            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - React.js - Styled Components - Loopback',
+            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - Styled Components',
         },
     ]
 }
