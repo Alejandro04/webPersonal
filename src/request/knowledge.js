@@ -4,7 +4,7 @@ export default {
             front: 'Javascript',
         },
         {
-            front: 'React.js',
+            front: 'React.js - Vue.js',
         },
         {
             front: 'Redux',
@@ -58,7 +58,7 @@ export default {
             db: 'Airtable',
         },
         {
-            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration - Styled Components',
+            goals: 'Ingles - Docker - Kubernetes  - Continuous Integration',
         },
     ]
 }
